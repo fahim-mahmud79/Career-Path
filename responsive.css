@@ -1,0 +1,198 @@
+/* header responsive starts  */
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0; 
+    }
+
+    ul li{
+        padding: 0;
+        /* margin-left: 10px; */
+        margin-top: 14px; 
+        /* align-items: center; */
+    }
+    ul{
+        justify-content: space-around;
+
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .button{
+        display: none;
+    }
+    .container{
+        padding: 20px;
+    }
+    .hero-image img{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+/* hero responsive  */
+
+    .mainhero{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        /* height: 70vh; */
+        width: 100%;
+        margin: auto;
+    }
+    .hero-area{
+        flex-direction: column;
+        /* flex-basis: 100%; */
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-one);
+        background-size: cover; 
+        
+    }
+    .hero-content{
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .hero-content h1{
+        margin-top: 12rem;      
+        margin-right: 0;
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .hero-content p{ 
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .hero-image img{
+        width: 100%;
+        height: auto;
+    }
+
+/* associates Responsive */
+
+
+    .logos{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .com-header h2{
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 100px;   
+    }
+
+
+/* how its works Responsive design  */
+
+    .main{
+        padding: 0 30px; 
+    }
+    .texth2 h2{
+        font-size: 34px;
+        text-transform: uppercase;
+    }
+    .texth2 p{
+        margin: 0;
+        padding: 14px 20px;
+        margin-bottom: 50px; 
+    }
+    .all-applies{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .applies p{
+      max-width: 400px;
+    }
+
+
+/* dream job Responsive here  */
+
+
+    .mainjob{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .job-left{
+        text-align: center; 
+    }
+    .job-left h4{
+        padding: 20px 22px;
+        text-transform: uppercase;
+        font-size: 34px; 
+    }
+    .job-left p{
+        padding: 10px 40px;
+    }
+    .points{
+        display: none;
+    }
+    .points a{
+
+        text-align: center; 
+        margin-left: 36%;
+    }
+    .job-right img{
+        width: 90%;
+        height: 50vh;
+        padding: 0;
+        margin-left: 26px;
+    }  
+
+
+/* job seeker Responsive */
+
+
+    .cartsubmain{
+        flex-direction: column;
+    }
+    .cartsubmain a{
+        margin-top: 20px;
+    }
+    .main2{
+        align-items: center;
+    }
+    .main3 a{
+        margin-top: 36px;
+    }
+
+
+/* resume css  Responsive */
+
+
+    .mainresume{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .leftresume{
+        padding-left: 0;
+    }
+    .leftresume h3{
+        text-align: center;
+    }
+    .rightresume{
+        margin-bottom: 56px;
+    }
+
+
+/* footer responsive */
+
+
+    .futer{
+        flex-direction: column;
+        height: 500px;
+    }
+    .footercontent h4{
+        text-align: center;
+        margin-right: 0;
+        text-transform: uppercase;
+
+    }
+}

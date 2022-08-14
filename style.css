@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --color-one: #FFFCF5;
+    --color-two: #3936C4;
+    --color-three: #21202A;
+
+   
+}
+
+/* header css design from here  */
+
+header{
+   background-color: var(--color-one);
+   height: 10vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo img{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+ul li a{
+    display: flex;
+    text-decoration: none;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button .signup{
+    margin-left: 12px;
+    border: 2px solid #0b5b98;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.button .signup:hover{
+    background-color: var(--color-two);
+    color: white; 
+    transition: 0.5s;
+}
+
+
+
+
+/* hero css design from here  */
+
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    max-width: 1100px;
+    height: 90vh;
+    background-color: var(--color-one);
+    margin: auto;
+    padding-top: 30px;
+    gap: 60px;
+}
+
+.mainhero{
+    background-color: var(--color-one);
+    
+}
+
+.hero-image img{
+    margin-top: 15vh;
+    width: 400px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px;
+    
+}
+
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 400px;
+    padding-right: 40px;
+    line-height: 1.2;
+}
+
+.hero-content p{
+    margin: 20px 0 20px 0; 
+    font-size: 18px;
+    padding-right: 50px;
+
+}
+
+.hero-content a{
+    background-color: var(--color-two);
+    padding: 15px 33px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+/* Associated css starts here  */ 
+.main-associate{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.com-header{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.logos img{
+    width: 120px;
+    margin-top: 40px;
+}
+/* Associated css ends here  */ 
+
+
+/* how its works css design  */
+
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.texth2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.texth2 p{
+    margin: 18px 300px 70px 300px;
+}
+
+.applies img{
+    width: 68px;
+    height: 68px; 
+
+}
+
+.all-applies{
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+    margin-bottom: 60px;
+    
+
+}
+
+.applies{
+    border: 1px solid #E4E4ED;
+    border-radius: 12px;
+    padding: 30px 16px;
+    
+
+}
+
+.applies:hover{
+    box-shadow: 0px 16px 52px 0px #21202A14;
+    transition: 0.6s; 
+}
+
+.applies h4{
+    margin: 30px 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.applies p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.applies a{
+    text-decoration: none;
+    color: var(--color-three);
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* dream job css starts here  */
+.mainjob{
+    margin-top: 220px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.job-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.job-left h4{
+    font-size: 42px;
+    line-height: 1.1;
+    color: #21202A;
+}
+
+.job-left p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.points p{
+    line-height: 0.5;
+    font-weight: 600;
+}
+
+.points a{
+    background-color: var(--color-two);
+    padding: 15px 33px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 38px;
+}
+
+.job-right img{
+    width: 500px;
+    height: 450px; 
+
+}
+
+.points i{
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+
+
+/* featured Jobs CSS  */
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 18px; 
+}
+
+.wrapper a{
+    background-color: var(--color-three);
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8px; 
+
+}
+
+.wrapper h2{
+    margin-bottom: 18px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .wrapper h2{
+        font-size: 30px;
+    }
+    .wrapper p{
+        padding: 0 20px;
+    }
+}
+
+.wrapper p{
+    margin-bottom: 70px;  
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.image-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-image img{
+    width: 300px;
+    height: 250px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 18px;
+}
+
+.single-image img:hover{
+    box-shadow: 0px 18px 46px 0px #21202A14;
+
+}
+
+/* featured Jobs CSS ends here  */
+
+/* job seeker css  */
+
+.maincon{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.main1{
+    margin-top: 180px;
+}
+
+.cartsubmain{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.cartsubmain h3{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.cartsubmain p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.main3 a{
+    background-color: var(--color-two);
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 8px; 
+    text-decoration: none;
+
+}
+
+.cart1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+     
+}
+
+.single-carts{
+
+    gap: 20px;
+}
+
+.single-carts img{
+    width: 300px;
+    height: 320px;
+    padding: 0 10px;
+    cursor: pointer;       
+}
+
+
+
+
+
+
+/* resume css  */
+.resume{
+    max-width: 1100px;
+    margin: auto;
+    background-color: var(--color-two);
+    border-radius: 12px;
+
+}
+.mainresume{
+    margin-top: 100px;
+    width: 90%;
+    height: 280px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftresume h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.leftresume{
+    display: flex;
+    flex-basis: 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+
+.rightresume a{
+    background-color: #fff;
+    color: var(--color-two);
+    padding: 20px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer css  */
+
+.mainfooter{
+    margin-top: 180px;
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.futer{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.futer{
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+
+
+.footercontent h4{
+    font-size: 34px;
+    font-weight: 600;
+    color: white;
+    margin-right: 70px;
+}
+
+.footercontent{
+    display: flex;
+    flex-basis: 60%;
+    padding-top: 180px;
+    padding-bottom: 100px;
+} 
+
+.footerbtn a{
+    background-color: var(--color-two);
+    color: var(--color-one);
+    text-decoration: none;
+    padding: 20px 22px;
+    border-radius: 8px;
+} 
+.footerbtn a:hover{
+    background-color: var(--color-one);
+    color: var(--color-three); 
+    transition: 0.5s; 
+}
+
+.footerbtn{
+    margin: 50px 0;
+}
+
+.line{
+
+    margin-bottom: 100px;
+    border: 10px solid red;
+}
+
